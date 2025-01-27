@@ -18,7 +18,7 @@ This project consists of two parts:
 ### 1. Start PostgreSQL Database
 
 bash
-docker run --name books-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+docker run --name postgres-db -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password -e POSTGRES_DB=book_api -p 5432:5432 -d postgres
 
 ### 2. Install Elixir (if not installed)
 
