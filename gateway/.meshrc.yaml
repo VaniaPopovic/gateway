@@ -1,0 +1,8 @@
+sources:
+  - name: BooksAPI
+    handler:
+      graphql:
+        endpoint: http://localhost:4000/api/graphql
+
+serve:
+  port: 4001
